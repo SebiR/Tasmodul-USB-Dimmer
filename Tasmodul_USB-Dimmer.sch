@@ -9116,9 +9116,6 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
-<part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
@@ -9127,7 +9124,7 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="Wurth_Connectors_WR-USB" library_urn="urn:adsk.eagle:library:16513831" deviceset="61400416021" device="" package3d_urn="urn:adsk.eagle:package:16513916/3" value=" 61400416021 "/>
 <part name="Q1" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC817*" device="SMD" package3d_urn="urn:adsk.eagle:package:28748/2" technology="-16"/>
-<part name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-AO3404A" package3d_urn="urn:adsk.eagle:package:38446/1" value="5.8A/30V/35mΩ"/>
+<part name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-AO3404A" package3d_urn="urn:adsk.eagle:package:38446/1" value="DMN3404L-7"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
@@ -9148,7 +9145,7 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <sheets>
 <sheet>
 <plain>
-<text x="109.22" y="73.66" size="1.778" layer="91">{"NAME":"Tasmodul_SHT31","GPIO":[288,0,0,0,640,608,0,0,0,0,0,0,1312,0],"FLAG":0,"BASE":18}</text>
+<text x="198.12" y="50.8" size="1.778" layer="91">TagConnect for Flashing</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="170.18" y="137.16" smashed="yes">
@@ -9202,8 +9199,8 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <instance part="GND1" gate="1" x="187.96" y="124.46" smashed="yes">
 <attribute name="VALUE" x="185.42" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="231.14" y="129.54" smashed="yes" rot="R90">
-<attribute name="VALUE" x="233.68" y="127" size="1.778" layer="96" rot="R90"/>
+<instance part="GND2" gate="1" x="213.36" y="124.46" smashed="yes">
+<attribute name="VALUE" x="210.82" y="121.92" size="1.778" layer="96"/>
 </instance>
 <instance part="LED1" gate="G$1" x="246.38" y="127" smashed="yes">
 <attribute name="NAME" x="249.936" y="122.428" size="1.778" layer="95" rot="R90"/>
@@ -9237,32 +9234,23 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <instance part="+3V8" gate="G$1" x="246.38" y="147.32" smashed="yes">
 <attribute name="VALUE" x="243.84" y="142.24" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R5" gate="G$1" x="210.82" y="129.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="214.63" y="128.0414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="214.63" y="132.842" size="1.778" layer="96" rot="R180"/>
+<instance part="R5" gate="G$1" x="205.74" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="209.55" y="128.0414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="209.55" y="132.842" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R4" gate="G$1" x="205.74" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="204.2414" y="148.59" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="209.042" y="148.59" size="1.778" layer="96" rot="R90"/>
+<instance part="R4" gate="G$1" x="200.66" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="199.1614" y="148.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="203.962" y="148.59" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V9" gate="G$1" x="205.74" y="162.56" smashed="yes">
-<attribute name="VALUE" x="203.2" y="157.48" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V9" gate="G$1" x="200.66" y="162.56" smashed="yes">
+<attribute name="VALUE" x="198.12" y="157.48" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R3" gate="G$1" x="198.12" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="196.6214" y="148.59" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="201.422" y="148.59" size="1.778" layer="96" rot="R90"/>
+<instance part="R3" gate="G$1" x="190.5" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="189.0014" y="148.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="193.802" y="148.59" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V10" gate="G$1" x="198.12" y="162.56" smashed="yes">
-<attribute name="VALUE" x="195.58" y="157.48" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="+3V11" gate="G$1" x="93.98" y="149.86" smashed="yes">
-<attribute name="VALUE" x="91.44" y="144.78" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+1" gate="1" x="86.36" y="149.86" smashed="yes">
-<attribute name="VALUE" x="83.82" y="144.78" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND4" gate="1" x="86.36" y="119.38" smashed="yes">
-<attribute name="VALUE" x="83.82" y="116.84" size="1.778" layer="96"/>
+<instance part="+3V10" gate="G$1" x="190.5" y="162.56" smashed="yes">
+<attribute name="VALUE" x="187.96" y="157.48" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND11" gate="1" x="43.18" y="205.74" smashed="yes">
 <attribute name="VALUE" x="40.64" y="203.2" size="1.778" layer="96"/>
@@ -9279,63 +9267,63 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94" font="vector"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94" font="vector"/>
 </instance>
-<instance part="J6" gate="G$1" x="177.8" y="195.58" smashed="yes"/>
-<instance part="GND27" gate="1" x="172.72" y="198.12" smashed="yes" rot="R180">
-<attribute name="VALUE" x="175.26" y="200.66" size="1.778" layer="96" rot="R180"/>
+<instance part="J6" gate="G$1" x="213.36" y="71.12" smashed="yes"/>
+<instance part="GND27" gate="1" x="208.28" y="73.66" smashed="yes" rot="R180">
+<attribute name="VALUE" x="210.82" y="76.2" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J2" gate="G$1" x="335.28" y="213.36" smashed="yes">
-<attribute name="NAME" x="335.16" y="219.25" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="330.23" y="203.15" size="1.778" layer="96"/>
-<attribute name="NAME" x="335.16" y="219.25" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="330.23" y="203.15" size="1.778" layer="96"/>
+<instance part="J2" gate="G$1" x="337.82" y="160.02" smashed="yes">
+<attribute name="NAME" x="337.7" y="165.91" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="332.77" y="149.81" size="1.778" layer="96"/>
+<attribute name="NAME" x="337.7" y="165.91" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="332.77" y="149.81" size="1.778" layer="96"/>
 </instance>
-<instance part="Q1" gate="G$1" x="299.72" y="167.64" smashed="yes">
-<attribute name="NAME" x="289.56" y="175.26" size="1.778" layer="95"/>
-<attribute name="VALUE" x="289.56" y="172.72" size="1.778" layer="96"/>
+<instance part="Q1" gate="G$1" x="302.26" y="114.3" smashed="yes">
+<attribute name="NAME" x="292.1" y="121.92" size="1.778" layer="95"/>
+<attribute name="VALUE" x="292.1" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="Q2" gate="NMOS" x="320.04" y="180.34" smashed="yes">
-<attribute name="NAME" x="325.12" y="180.34" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="325.12" y="177.8" size="1.778" layer="96" font="vector"/>
+<instance part="Q2" gate="NMOS" x="322.58" y="127" smashed="yes">
+<attribute name="NAME" x="327.66" y="127" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="327.66" y="124.46" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND3" gate="1" x="302.26" y="160.02" smashed="yes">
-<attribute name="VALUE" x="299.72" y="157.48" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="304.8" y="106.68" smashed="yes">
+<attribute name="VALUE" x="302.26" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="GND12" gate="1" x="322.58" y="160.02" smashed="yes">
-<attribute name="VALUE" x="320.04" y="157.48" size="1.778" layer="96"/>
+<instance part="GND12" gate="1" x="325.12" y="106.68" smashed="yes">
+<attribute name="VALUE" x="322.58" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="R9" gate="G$1" x="302.26" y="187.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="300.7614" y="184.15" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="305.562" y="184.15" size="1.778" layer="96" rot="R90"/>
+<instance part="R9" gate="G$1" x="304.8" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="303.3014" y="130.81" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="308.102" y="130.81" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R10" gate="G$1" x="284.48" y="167.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="288.29" y="166.1414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="288.29" y="170.942" size="1.778" layer="96" rot="R180"/>
+<instance part="R10" gate="G$1" x="287.02" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="290.83" y="112.8014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="290.83" y="117.602" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R11" gate="G$1" x="309.88" y="177.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="313.69" y="176.3014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="313.69" y="181.102" size="1.778" layer="96" rot="R180"/>
+<instance part="R11" gate="G$1" x="312.42" y="124.46" smashed="yes" rot="R180">
+<attribute name="NAME" x="316.23" y="122.9614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="316.23" y="127.762" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+4" gate="1" x="302.26" y="198.12" smashed="yes">
-<attribute name="VALUE" x="299.72" y="193.04" size="1.778" layer="96" rot="R90"/>
+<instance part="P+4" gate="1" x="304.8" y="144.78" smashed="yes">
+<attribute name="VALUE" x="302.26" y="139.7" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+5" gate="1" x="322.58" y="220.98" smashed="yes">
-<attribute name="VALUE" x="320.04" y="215.9" size="1.778" layer="96" rot="R90"/>
+<instance part="P+5" gate="1" x="325.12" y="167.64" smashed="yes">
+<attribute name="VALUE" x="322.58" y="162.56" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="X1" gate="G$1" x="30.48" y="215.9" smashed="yes">
 <attribute name="NAME" x="20.32" y="224.536" size="1.27" layer="95"/>
 <attribute name="VALUE" x="20.32" y="208.28" size="1.27" layer="96"/>
 </instance>
-<instance part="S1" gate="G$1" x="129.54" y="40.64" smashed="yes" rot="R90"/>
-<instance part="S2" gate="G$1" x="129.54" y="55.88" smashed="yes" rot="R90"/>
-<instance part="GND14" gate="1" x="119.38" y="30.48" smashed="yes">
-<attribute name="VALUE" x="116.84" y="27.94" size="1.778" layer="96"/>
+<instance part="S1" gate="G$1" x="152.4" y="71.12" smashed="yes" rot="R90"/>
+<instance part="S2" gate="G$1" x="152.4" y="86.36" smashed="yes" rot="R90"/>
+<instance part="GND14" gate="1" x="142.24" y="60.96" smashed="yes">
+<attribute name="VALUE" x="139.7" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="1" x="165.1" y="198.12" smashed="yes">
-<attribute name="VALUE" x="162.56" y="193.04" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="1" x="200.66" y="73.66" smashed="yes">
+<attribute name="VALUE" x="198.12" y="68.58" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R6" gate="G$1" x="213.36" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="211.8614" y="148.59" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="216.662" y="148.59" size="1.778" layer="96" rot="R90"/>
+<instance part="R6" gate="G$1" x="210.82" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="209.3214" y="148.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="214.122" y="148.59" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R7" gate="G$1" x="127" y="157.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="125.5014" y="153.67" size="1.778" layer="95" rot="R90"/>
@@ -9344,8 +9332,8 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <instance part="+3V2" gate="G$1" x="127" y="167.64" smashed="yes">
 <attribute name="VALUE" x="124.46" y="162.56" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V3" gate="G$1" x="213.36" y="162.56" smashed="yes">
-<attribute name="VALUE" x="210.82" y="157.48" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V3" gate="G$1" x="210.82" y="162.56" smashed="yes">
+<attribute name="VALUE" x="208.28" y="157.48" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -9368,25 +9356,20 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <wire x1="40.64" y1="220.98" x2="58.42" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P+1" gate="1" pin="+5V"/>
-<wire x1="83.82" y1="139.7" x2="86.36" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="139.7" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J2" gate="G$1" pin="VBUS"/>
-<wire x1="325.12" y1="215.9" x2="322.58" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="215.9" x2="322.58" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="162.56" x2="325.12" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="162.56" x2="325.12" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="P+4" gate="1" pin="+5V"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="302.26" y1="195.58" x2="302.26" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="142.24" x2="304.8" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="190.5" x2="165.1" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="190.5" x2="165.1" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="66.04" x2="200.66" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="66.04" x2="200.66" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 </segment>
 </net>
@@ -9424,12 +9407,8 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="215.9" y1="129.54" x2="228.6" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="83.82" y1="124.46" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="124.46" x2="86.36" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="129.54" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="129.54" x2="213.36" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="40.64" y1="213.36" x2="43.18" y2="213.36" width="0.1524" layer="91"/>
@@ -9445,8 +9424,8 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <segment>
 <pinref part="J6" gate="G$1" pin="1"/>
 <pinref part="GND27" gate="1" pin="GND"/>
-<wire x1="175.26" y1="193.04" x2="172.72" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="193.04" x2="172.72" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="68.58" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="68.58" x2="208.28" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="E"/>
@@ -9455,25 +9434,25 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <segment>
 <pinref part="Q2" gate="NMOS" pin="S"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="322.58" y1="175.26" x2="322.58" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="121.92" x2="325.12" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="S2" gate="G$1" pin="3"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="121.92" y1="60.96" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="60.96" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="91.44" x2="142.24" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="91.44" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="50.8" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="45.72" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="35.56" x2="119.38" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="35.56" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
-<junction x="119.38" y="35.56"/>
+<wire x1="142.24" y1="81.28" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="76.2" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="66.04" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
+<junction x="142.24" y="66.04"/>
 <pinref part="S1" gate="G$1" pin="3"/>
-<wire x1="121.92" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
-<junction x="119.38" y="45.72"/>
+<wire x1="144.78" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
+<junction x="142.24" y="76.2"/>
 <pinref part="S2" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="50.8" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
-<junction x="119.38" y="50.8"/>
+<wire x1="144.78" y1="81.28" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
+<junction x="142.24" y="81.28"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -9518,22 +9497,17 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
-<wire x1="205.74" y1="160.02" x2="205.74" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="160.02" x2="200.66" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
-<wire x1="198.12" y1="160.02" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="+3V11" gate="G$1" pin="+3V3"/>
-<wire x1="83.82" y1="137.16" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="137.16" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="160.02" x2="190.5" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="213.36" y1="160.02" x2="213.36" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="160.02" x2="210.82" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -9544,17 +9518,17 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <net name="BTN_DWN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO5"/>
-<wire x1="185.42" y1="139.7" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
-<label x="228.6" y="139.7" size="1.27" layer="95" xref="yes"/>
+<wire x1="185.42" y1="139.7" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
+<label x="218.44" y="139.7" size="1.27" layer="95" xref="yes"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="139.7" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="147.32" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
-<junction x="213.36" y="139.7"/>
+<wire x1="210.82" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="147.32" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
+<junction x="210.82" y="139.7"/>
 </segment>
 <segment>
 <pinref part="S2" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
-<label x="109.22" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="144.78" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
+<label x="132.08" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -9571,13 +9545,9 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <label x="144.78" y="162.56" size="1.27" layer="95"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="134.62" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
-<label x="93.98" y="134.62" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="175.26" y1="182.88" x2="170.18" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="58.42" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="5"/>
-<label x="170.18" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="205.74" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -9591,68 +9561,60 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <net name="BTN_UP" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="40.64" x2="109.22" y2="40.64" width="0.1524" layer="91"/>
-<label x="109.22" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="144.78" y1="71.12" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
+<label x="132.08" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO13"/>
 <wire x1="152.4" y1="129.54" x2="127" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="127" y1="129.54" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="127" y1="129.54" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="127" y1="152.4" x2="127" y2="129.54" width="0.1524" layer="91"/>
 <junction x="127" y="129.54"/>
-<label x="121.92" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="124.46" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO2"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="132.08" x2="205.74" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="132.08" x2="205.74" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="132.08" x2="200.66" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="132.08" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="RX"/>
-<wire x1="228.6" y1="142.24" x2="185.42" y2="142.24" width="0.1524" layer="91"/>
-<label x="228.6" y="142.24" size="1.27" layer="95" xref="yes"/>
+<wire x1="218.44" y1="142.24" x2="185.42" y2="142.24" width="0.1524" layer="91"/>
+<label x="218.44" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="129.54" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
-<label x="93.98" y="129.54" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="170.18" y1="185.42" x2="175.26" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="60.96" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="4"/>
-<label x="170.18" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="205.74" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="TX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="TX"/>
-<wire x1="228.6" y1="144.78" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
-<label x="228.6" y="144.78" size="1.27" layer="95" xref="yes"/>
+<wire x1="218.44" y1="144.78" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
+<label x="218.44" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="127" x2="83.82" y2="127" width="0.1524" layer="91"/>
-<label x="93.98" y="127" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="175.26" y1="187.96" x2="170.18" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="63.5" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="3"/>
-<label x="170.18" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="205.74" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO0"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="134.62" x2="198.12" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="134.62" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="134.62" x2="198.12" y2="134.62" width="0.1524" layer="91"/>
-<junction x="198.12" y="134.62"/>
-<label x="228.6" y="134.62" size="1.27" layer="95" xref="yes"/>
+<wire x1="185.42" y1="134.62" x2="190.5" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="134.62" x2="190.5" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="134.62" x2="190.5" y2="134.62" width="0.1524" layer="91"/>
+<junction x="190.5" y="134.62"/>
+<label x="218.44" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
@@ -9661,13 +9623,9 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <label x="241.3" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
-<label x="93.98" y="132.08" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="170.18" y1="180.34" x2="175.26" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="55.88" x2="210.82" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="6"/>
-<label x="170.18" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="205.74" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9687,45 +9645,45 @@ Details see: &lt;a href="https://www.we-online.de/katalog/en/WS-TASU_J-BEND_SMT_
 <segment>
 <pinref part="Q1" gate="G$1" pin="B"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="297.18" y1="167.64" x2="289.56" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="114.3" x2="292.1" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="C"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="302.26" y1="172.72" x2="302.26" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="119.38" x2="304.8" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="302.26" y1="177.8" x2="302.26" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="177.8" x2="302.26" y2="177.8" width="0.1524" layer="91"/>
-<junction x="302.26" y="177.8"/>
+<wire x1="304.8" y1="124.46" x2="304.8" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="124.46" x2="304.8" y2="124.46" width="0.1524" layer="91"/>
+<junction x="304.8" y="124.46"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="GND"/>
 <pinref part="Q2" gate="NMOS" pin="D"/>
-<wire x1="325.12" y1="208.28" x2="322.58" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="208.28" x2="322.58" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="154.94" x2="325.12" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="154.94" x2="325.12" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="279.4" y1="167.64" x2="271.78" y2="167.64" width="0.1524" layer="91"/>
-<label x="271.78" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="281.94" y1="114.3" x2="274.32" y2="114.3" width="0.1524" layer="91"/>
+<label x="274.32" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO4"/>
-<wire x1="185.42" y1="137.16" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
-<label x="228.6" y="137.16" size="1.27" layer="95" xref="yes"/>
+<wire x1="185.42" y1="137.16" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
+<label x="218.44" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO15" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO15"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="129.54" x2="205.74" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="129.54" x2="200.66" y2="129.54" width="0.1524" layer="91"/>
 <label x="198.12" y="129.54" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
